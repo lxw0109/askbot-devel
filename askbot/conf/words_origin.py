@@ -1,4 +1,3 @@
-# coding: utf-8
 """
 General skin settings
 """
@@ -20,11 +19,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASK_YOUR_QUESTION',
-        # lxw
-        # default=_('Ask Your Question'),
-        default=_('提问'),
-        # description=_('Ask Your Question'),
-        description=_('提问'),
+        default=_('Ask Your Question'),
+        description=_('Ask Your Question'),
         help_text=_('Used on a button'),
         localized=True
     )
@@ -34,11 +30,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASK_THE_GROUP',
-        # lxw
-        # default=_('Ask the Group'),
-        default=_('小组提问'),
-        # description=_('Ask the Group'),
-        description=_('小组提问'),
+        default=_('Ask the Group'),
+        description=_('Ask the Group'),
         help_text=_('Used on a button'),
         localized=True
     )
@@ -48,11 +41,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_POST_YOUR_ANSWER',
-        # lxw
-        # default=_('Post Your Answer'),
-        # description=_('Post Your Answer'),
-        default=_('提交回答'),
-        description=_('提交回答'),
+        default=_('Post Your Answer'),
+        description=_('Post Your Answer'),
         help_text=_('Used on a button'),
         localized=True
     )
@@ -62,11 +52,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ANSWER_YOUR_OWN_QUESTION',
-        # lxw
-        # default=_('Answer Your Own Question'),
-        # description=_('Answer Your Own Question'),
-        default=_('回答自己的问题'),
-        description=_('回答自己的问题'),
+        default=_('Answer Your Own Question'),
+        description=_('Answer Your Own Question'),
         help_text=_('Used on a button'),
         localized=True
     )
@@ -135,11 +122,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_EDIT_YOUR_PREVIOUS_ANSWER',
-        # lxw
-        # default=_('Edit Your Previous Answer'),
-        # description=_('Edit Your Previous Answer'),
-        default=_('编辑之前的回答'),
-        description=_('编辑之前的回答'),
+        default=_('Edit Your Previous Answer'),
+        description=_('Edit Your Previous Answer'),
         help_text=_('Used on a button'),
         localized=True
     )
@@ -154,11 +138,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASK_QUESTIONS',
-        # lxw
-        # default=_('ask questions'),
-        # description=_('ask questions'),
-        default=_('提问'),
-        description=_('提问'),
+        default=_('ask questions'),
+        description=_('ask questions'),
         localized=True
     )
 )
@@ -168,11 +149,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_POST_ANSWERS',
-        # lxw
-        # default=_('post answers'),
-        # description=_('post answers'),
-        default=_('回答'),
-        description=_('回答'),
+        default=_('post answers'),
+        description=_('post answers'),
         localized=True
     )
 )
@@ -181,11 +159,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_MERGE_QUESTIONS',
-        # lxw
-        # default=_('Merge duplicate questions'),
-        # description=_('Merge duplicate questions'),
-        default=_('合并重复的问题'),
-        description=_('合并重复的问题'),
+        default=_('Merge duplicate questions'),
+        description=_('Merge duplicate questions'),
         localized=True
     )
 )
@@ -194,11 +169,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ENTER_DUPLICATE_QUESTION_ID',
-        # lxw
-        # default=_('Enter duplicate question ID'),
-        # description=_('Enter duplicate question ID'),
-        default=_('输入重复问题的ID'),
-        description=_('输入重复问题的ID'),
+        default=_('Enter duplicate question ID'),
+        description=_('Enter duplicate question ID'),
         localized=True
     )
 )
@@ -207,11 +179,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASKED',
-        # lxw
-        # default=_('asked'),
-        # description=_('asked'),
-        default=_('问过'),
-        description=_('问过'),
+        default=_('asked'),
+        description=_('asked'),
         localized=True
     )
 )
@@ -220,11 +189,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASKED_FIRST_QUESTION',
-        # lxw
-        # default=_('Asked first question'),
-        # description=_('Asked first question'),
-        default=_('问过的第一个问题'),
-        description=_('问过的第一个问题'),
+        default=_('Asked first question'),
+        description=_('Asked first question'),
         localized=True
     )
 )
@@ -233,11 +199,8 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASKED_BY_ME',
-        # lxw
-        # default=_('Asked by me'),
-        # description=_('Asked by me'),
-        default=_('我的提问'),
-        description=_('我的提问'),
+        default=_('Asked by me'),
+        description=_('Asked by me'),
         localized=True
     )
 )

@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED 1
 
 ADD . /src/
 WORKDIR /src/
-RUN pip install -r askbot_requirements.txt
+RUN pip install -i https://pypi.douban.com/simple -r askbot_requirements.txt
 RUN python setup.py install
 
 RUN mkdir /site/
